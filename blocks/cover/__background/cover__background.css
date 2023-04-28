@@ -9,11 +9,12 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    background-position: center;
     color: #FFFFFF;
 }
 
 .cover__background::after {
-    content: "";
+    content:"";
     background-color: #2A2C2F;
     position: absolute;
     width: 100%;
@@ -24,7 +25,6 @@
 }
 
 .cover__background:hover::after {
-    content: "";
     opacity: 0.8;
 }
 
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
     .cover__background {
         min-height: 200px;
     }

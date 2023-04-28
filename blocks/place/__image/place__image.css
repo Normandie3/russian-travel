@@ -15,8 +15,5 @@
 @media screen and (max-width: 767px) {
     .place__image {
         height: 320px;
-        display: flex;
-        flex-direction: column;
-        align-self: flex-start;
     }
 }
