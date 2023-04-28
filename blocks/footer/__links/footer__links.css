@@ -8,6 +8,11 @@
     line-height: 18px;
     color: #FFFFFF;
     column-gap: 18px;
+    transition: .2s ease;
+}
+
+.footer__links:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {
